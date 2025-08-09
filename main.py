@@ -6,7 +6,7 @@ import numpy as np
 import io
 from tensorflow.keras.models import load_model
 
-model = load_model('cifar10_model.keras')
+model = load_model('cifar1_model.keras')
 app = FastAPI()
 
 class_names = ['airplane', 'automobile', 'bird', 'cat', 'deer',
